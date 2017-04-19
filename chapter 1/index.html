@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+     *{padding: 0;margin: 0;}
+     svg{
+         border: 1px solid #0f0;
+         width: 320px;
+         height: 320px;
+     }
+    </style>
+</head>
+
+<body>    
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <text font-family="microsoft yahei" font-size="120" y="160" x="160">马</text>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <text font-family="microsoft yahei" font-size="120" y="160" x="160">马</text>
+            <animateTransform attributeName="transform" begin="0s" dur="2s" type="rotate" from="0 160 160" to="360 160 160" repeatCount="indefinite"/>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <g> 
+            <text font-family="microsoft yahei" font-size="120" y="160" x="160">
+            马
+            <set attributeName="x" attributeType="XML" to="60" begin="2s" />
+            </text>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <g> 
+            <text font-family="microsoft yahei" font-size="120" y="160" x="160">
+            马
+            <animate attributeName="x" from="160" to="60" begin="0s" dur="3s" repeatCount="indefinite" />
+            </text>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <g> 
+            <text font-family="microsoft yahei" font-size="80" y="100" x="100">马</text>
+            <animateTransform attributeName="transform" begin="0s" dur="3s"  type="scale" from="1" to="1.5" repeatCount="indefinite"/>
+        </g>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <text font-family="microsoft yahei" font-size="40" x="0" y="0" fill="#cd0000">马
+            <animateMotion path="M10,80 q100,120 120,20 q140,-50 160,0" begin="0s" dur="3s" rotate="auto" repeatCount="indefinite"/>
+        </text>
+        <path d="M10,80 q100,120 120,20 q140,-50 160,0" stroke="#cd0000" stroke-width="2" fill="none" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <text font-family="microsoft yahei" font-size="120" y="160" x="160">马
+            <animate attributeName="x" from="160" to="60" begin="0s" dur="3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="1" to="0" begin="0s" dur="3s" repeatCount="indefinite" />
+        </text>
+    </svg>
+</body>
+
+</html>
